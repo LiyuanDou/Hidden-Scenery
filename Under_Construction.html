@@ -1,0 +1,70 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hidden Scenery</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+  </script>
+  <script>
+   $(document).ready(function(){
+     $(".button_contribute").click(function(){
+      window.history.back()
+       }
+      );
+    });
+  </script>
+  <style type="text/css">
+    body {
+      margin: 0;
+    }
+
+    div {
+      left: 0;
+      top: 0;
+      padding: 0;
+      margin: 0;
+    }
+    #Img_Under{
+      text-align: center;
+    }
+
+        .slogan_in_contribute {
+          font-family: Helvetica;
+          font-size: 52px;
+          color: #161513;
+        }
+
+        .text_in_contribute {
+          font-family: Helvetica;
+          font-size: 24px;
+          line-height: 36px;
+          color: #161513;
+        }
+        .button_contribute {
+          background-color: #B2803E;
+          border: 0;
+          width: 152px;
+          height: 36px;
+          border-radius: 100px;
+          font-family: Helvetica Neue;
+          font-size: 18px;
+          font-weight: bold;
+          color: #ffffff;
+        }
+        .button_contribute:hover{
+          background-color: #845D23;
+        }
+  </style>
+
+</head>
+
+<body>
+  <div id="Img_Under">
+  <img src="images/Under_Construction.png">
+  <p class="slogan_in_contribute">Under Development ...</p>
+  <p class="text_in_contribute">Please look forward to the next version!</p>
+  <button class="button_contribute" type="button" name="Contribute">Go Back</button>
+  </div>
+</body>
+
+</html>

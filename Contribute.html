@@ -11,7 +11,14 @@
   </script>
   <title>Contribute</title>
   <link rel="stylesheet" type="text/css" href="navigation.css">
-
+  <script>
+   $(document).ready(function(){
+     $(".button_submit").click(function(){
+       alert("SUBMIT SUCCESSFULLY!");
+       }
+      );
+    });
+  </script>
   <style type="text/css">
     .main_body {
       position: relative;
@@ -267,7 +274,7 @@
     }
 
     .button_submit {
-      background-color: #845D23;
+      background-color: #ab814a;
       border: 0;
       width: 152px;
       height: 36px;
@@ -299,6 +306,13 @@
     }
    .picture_upload_box{
      cursor:pointer;
+   }
+   .button_submit:hover{
+        background-color: #845D23;
+      }
+   .button_cancel:hover{
+     background-color: #161513;
+     color: #FFFFFF;
    }
   </style>
 </head>
@@ -411,7 +425,7 @@
       </a>
     </div>
     <div class="nav2">
-      <a href="List.html">
+      <a href="Under_Construction.html">
         <p class="text_nav">Explore</p>
       </a>
     </div>
