@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Scenery Name</title>
   <link type="text/css" rel="stylesheet" href="Detail_page.css">
+  <link rel="stylesheet" type="text/css" href="navigation.css">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
   </script>
   <script type="text/javascript" src="Detail_page.js">
@@ -24,8 +25,36 @@
 </head>
 
 <body>
-  <div id="NavigationBar">
-  </div>
+
+    <div class="navigation">
+      <a href="Landing_page.html"><img class="logo" src="images/logo.png"></a>
+      <p class="title">Hidden Scenery</p>
+      <p class="slogan">The ordinary view can be extraordinary</p>
+      <div class="nav1">
+        <a href="Detail_page.html">
+          <p class="text_nav">Weekly-Task</p>
+        </a>
+      </div>
+      <div class="nav2">
+        <a href="List.html">
+          <p class="text_nav">Explore</p>
+        </a>
+      </div>
+      <div class="line">
+        <table style="height:32px;border-color:#E3D5CA;border-left-style:solid;border-width:2px">
+          <tr>
+            <td valign="top"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="login">
+        <a href="Login.html">
+          <p class="text_nav">Login</p>
+        </a>
+      </div>
+      <a href="register.html"> <button class="button_register" id="button_register" type="button" name="Join free">Join free</button></a>
+    </div>
+
   <img id="ShowPic" src="images/cathedral.png"> </img>
 
   <div id="CluePanel">
@@ -33,7 +62,8 @@
     <br>
     <h class="title">Helsinki Cathedral</h>
     <br>
-    <text id="Details">“The church stands out from the neat buildings by the lake. The arched roof is dark green and pointed.“</text>
+    <text id="Details">The church stands out from the neat buildings by the lake. The arched roof is dark green and pointed.</text>
+
     <br>
     <div id="InfoPanel">
       <img src="images/location.png" alt="The icon for position">
@@ -62,9 +92,9 @@
   </div>
   <div id="Input">
     <img class="portrait" src="images/portrait1.png">
-    <textarea>Describe your journey ...</textarea>
+    <textarea placeholder="Describe your journey ..."></textarea>
     <input type="file" class="filess" hidden>
-    <button class="change_btn">Choose Pics</button>
+    <button  class="change_btn"><text id="Choose_Pic">Choose Pics</text></button>
     <br>
     <br>
     <button class="send_btn"> Send</button>
@@ -84,7 +114,7 @@
     <img class="portrait" src="images/portrait2.png">
     <h>Iraj Pirdoost </h>
     <span>19:00 today</span><br>
-    <text> Flexitarian cardigan four dollar toast tattooed, freegan man braid fingerstache pok pok fam air plant 8-bit green juice live-edge next level vice. </text><br>
+    <text> A really nice journey, and enjoy the game. I will also join the task in the next week. The third task is quite hard too find, challenging game!</text><br>
     <img class="CommentPic" src="images/compic1.png">
     <img class="CommentPic" src="images/compic2.png">
     <img class="CommentPic" src="images/compic3.png">

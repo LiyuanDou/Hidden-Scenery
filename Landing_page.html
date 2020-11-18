@@ -7,7 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Landing_page</title>
   <link rel="stylesheet" type="text/css" href="navigation.css">
-
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="Landing_page.js">
+  </script>
   <style type="text/css">
     .banner {
       position: relative;
@@ -62,7 +65,7 @@
     }
 
     .button_contribute {
-      background-color: #845D23;
+      background-color: #B2803E;
       border: 0;
       width: 152px;
       height: 36px;
@@ -75,30 +78,37 @@
       top: 740px;
       left:45%;
     }
+    .float{
+      display: none;
+      z-index: 2;
+      position: absolute;
+      left:850px;
+      top:530px;
+      background: #FFFFFF;
+      opacity: 0.8;
+      border-radius: 10px;
+      padding:1.5%;
+    }
+    #Intro{
+      font-size: 14px;
+      font-family: Helvetica-Oblique;
+      line-height: 24px;
+      color: #161413;
+    }
   </style>
-
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-    $(document).ready(function() {
-
-      $("button.button_register").hover(function() {
-        $(this).css("background-color", "#845E23");
-        document.getElementById("StartG").style.color = "#FFFFFF";
-      }, function() {
-        $(this).css("background-color", "#845D23");
-        document.getElementById("StartG").style.color = "#FFFFFF";
-      });
-
-    });
-  </script>
-
-
-
 </head>
 
 <body>
   <div class="banner">
     <img class="banner_picture" src="images/banner.png" width="100%">
-    <p class="banner_text">Week 3:<br>Helsinki Cathedral</p>
+    <p class="banner_text">Week 3:<br>Helsinki Cathedral</p><br>
+    <div class="float" id="Float">
+      <div style="width:300px; padding-left:12px;">
+        <text id="Intro"> The church stands out from the neat buildings by the lake. The arched roof is dark green and pointed.</text>
+      </div>
+      <img src="images/location.png" alt="The icon for Clue">
+      <b>Unioninkatu 29, 00170 Helsinki</b>
+    </div>
   </div>
 
   <div class="navigation">
@@ -127,7 +137,7 @@
         <p class="text_nav">Login</p>
       </a>
     </div>
-    <button class="button_register" id="button_register" type="button" name="Join free">Join free</button>
+   <a href="register.html"> <button class="button_register" id="button_register" type="button" name="Join free">Join free</button></a>
   </div>
 
   <iframe src="Landing_page_yi.html" width="100%" height="740px" frameBorder="0" scrolling="no"></iframe>

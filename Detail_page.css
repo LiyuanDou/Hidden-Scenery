@@ -2,7 +2,7 @@
 #ShowPic {width: 795px; height: 531.5px; background: rgba(0, 0, 0, 0); opacity: 1; position:relative; left:168px; top:139px; }
 #CluePanel {padding-left: 2%;padding-right: 2%;position:relative; top:139px; left:168px; background: #E4D5CA; border: 1px solid #E4D5CB; opacity: 1; width: 341.5px; height: 530px; margin-right:243.5px; float:right;}
 .shareLink { width: 18px; height: 18px;}
-.title {position:relative; top:35px;  font-size: 36px; font-family: Helvetica-Bold; line-height: 24px; color: #171613;opacity: 1;}
+#CluePanel .title {position:relative; left:-5px;top:35px;  font-size: 36px; font-family: Helvetica-Bold; line-height: 24px; color: #171613;opacity: 1;}
 #Details {position:relative; top:55px; font-size: 16px; font-family: Helvetica-Oblique; line-height: 24px; color: #161413; opacity: 1;}
 .button3 {padding-left:30px; padding-right:30px; margin-top:20px; height: 36px; background: #FFFFFF; border: 2px solid #161513; opacity: 1; border-radius: 100px;}
 .button3 text {font-size: 16px; font-family: HelveticaNeue-Bold; color: #161513;}

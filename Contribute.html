@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="Contribute.js">
+  </script>
   <title>Contribute</title>
   <link rel="stylesheet" type="text/css" href="navigation.css">
 
@@ -20,7 +24,7 @@
       position: absolute;
       top: 0px;
     }
- 
+
     .headline {
       position: absolute;
       top: -52px;
@@ -146,6 +150,12 @@
       border-color: #CCCCCC;
       border-width: 2px;
       border-style: double;
+
+    }
+    ::placeholder{
+      font-family: Helvetica Neue;
+      font-size: 14px;
+      color: #C7C7CC;
     }
 
     .clue_hint {
@@ -287,6 +297,9 @@
       left: 36.64%;
       top: 612px;
     }
+   .picture_upload_box{
+     cursor:pointer;
+   }
   </style>
 </head>
 
@@ -306,11 +319,12 @@
           </div>
           <div class="picture_content">
             <div class="picture_upload_box">
+              <input type="file" class="filess" hidden>
               <img class="picture_upload_icon" src="images/camera.png">
             </div>
             <div class="clue_box">
-              <textarea class="picture_textarea_clue" name="clue"></textarea>
-              <p class="clue_hint">Set some clues as you want for finding the picture. Do not tell the exact location!</p>
+              <textarea class="picture_textarea_clue" name="clue" placeholder="Set some clues as you want for finding the picture. Do not tell the exact location!"></textarea>
+              <p class="clue_hint"></p>
             </div>
           </div>
         </div>
@@ -362,8 +376,8 @@
       <p class="step_description_position step_text">3. General description</p>
 
       <div class="description_box">
-        <textarea class="textarea_description" name="description"></textarea>
-        <p class="description_hint" id="description_hint">Write the general description or recommendation reason of your scenery here. Do not tell the exact location!</p>
+        <textarea class="textarea_description" name="description" placeholder="Write the general description or recommendation reason of your scenery here. Do not tell the exact location!"></textarea>
+        <p class="description_hint" id="description_hint"></p>
       </div>
       <p class="step_region_position step_text">4. Region</p>
 
@@ -392,7 +406,7 @@
     <p class="title">Hidden Scenery</p>
     <p class="slogan">The ordinary view can be extraordinary</p>
     <div class="nav1">
-      <a href="Detail.html">
+      <a href="Detail_page.html">
         <p class="text_nav">Weekly-Task</p>
       </a>
     </div>
@@ -413,7 +427,7 @@
         <p class="text_nav">Login</p>
       </a>
     </div>
-    <button class="button_register" type="button" name="Join free">Join free</button>
+    <<a href="register.html"><button class="button_register" type="button" name="Join free">Join free</button></a>
   </div>
 
 </body>

@@ -8,6 +8,10 @@ $(document).ready(function(){
       document.getElementById("StartG").style.color = "#161513";
   });
 
+  $("#StartG").click(function(){
+    window.parent.frames.location.href="Detail_page.html"
+  });
+
   $("#ClueImg1").mouseenter(function(){
     $("#Float1").fadeIn() ;
  });
