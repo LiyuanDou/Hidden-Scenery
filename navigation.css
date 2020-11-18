@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+}
+
+div {
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  background: #161413;
+  width: 100%;
+  height: 95.5px;
+  position: fixed;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.logo {
+  left: 6.45%;
+  top: 24px;
+  position: absolute;
+  pointer-events: auto;
+}
+
+.title {
+  left: 11.5%;
+  top: 0px;
+  position: absolute;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 24px;
+  color: #E3D5CA;
+  pointer-events: auto;
+}
+
+.slogan {
+  left: 11.5%;
+  top: 36px;
+  position: absolute;
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #E3D5CA;
+  pointer-events: auto;
+}
+
+.nav1 {
+  left: 58.11%;
+  top: 15px;
+  position: absolute;
+  pointer-events: auto;
+}
+
+.nav2 {
+  left: 69.06%;
+  top: 15px;
+  position: absolute;
+  pointer-events: auto;
+}
+
+.text_nav {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: #E3D5CA;
+}
+
+.line {
+  left: 76.2%;
+  top: 33px;
+  position: absolute;
+}
+
+.login {
+  left: 78.37%;
+  top: 15px;
+  position: absolute;
+  pointer-events: auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #E3D5CA
+}
+
+.button_register {
+  background-color: #9CDA1E;
+  border: 0;
+  width: 152px;
+  height: 36px;
+  border-radius: 100px;
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  pointer-events: auto;
+  left: 83.71%;
+  top: 30px;
+  position: absolute;
+}

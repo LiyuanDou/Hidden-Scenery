@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contribute</title>
+  <link rel="stylesheet" type="text/css" href="navigation.css">
+
+  <style type="text/css">
+    .main_body {
+      position: relative;
+      top: 95.5px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .background_picture {
+      position: absolute;
+      top: 0px;
+    }
+ 
+    .headline {
+      position: absolute;
+      top: -52px;
+      left: 6.38%;
+      font-family: Apple Chancery;
+      font-size: 56px;
+      color: white;
+    }
+
+    .form_box {
+      position: relative;
+      top: 108px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 8px;
+      width: 88%;
+      height: 690px;
+      z-index: 1;
+    }
+
+    .step_picture_position {
+      position: absolute;
+      left: 7.93%;
+      top: 22px;
+    }
+
+    .picture_box {
+      position: relative;
+      left: 7.93%;
+      top: 90px;
+      width: 38.66%;
+    }
+
+    .picture_1_postion {
+      position: relative;
+      width: 100%;
+    }
+
+    .picture_2_postion {
+      position: relative;
+      top: 300px;
+      width: 100%;
+    }
+
+    .picture_3_postion {
+      position: relative;
+      top: 370px;
+      width: 100%;
+    }
+
+    .picture_bar_open {
+      background-color: #E4D5CB;
+      border-radius: 8px 8px 0px 0px;
+      width: 100%;
+      height: 48px;
+      position: absolute;
+    }
+
+    .picture_bar_close {
+      background-color: #E4D5CB;
+      border-radius: 8px;
+      width: 100%;
+      height: 48px;
+      position: absolute;
+    }
+
+    .picture_bar_text {
+      position: absolute;
+      left: 4.25%;
+      font-family: Helvetica Neue;
+      font-size: 16px;
+      color: #161513;
+    }
+
+    .picture_icon_up {
+      position: absolute;
+      left: 93.24%;
+      top: 47.17%;
+    }
+
+    .picture_content {
+      background-color: #FFFFFF;
+      border-radius: 0px 0px 8px 8px;
+      width: 100%;
+      height: 230px;
+      position: absolute;
+      top: 48px;
+    }
+
+    .picture_upload_box {
+      position: absolute;
+      left: 4.25%;
+      top: 7.63%;
+      width: 43.63%;
+      height: 84.34%;
+      border-color: #CCCCCC;
+      border-radius: 8px;
+      border-width: 2px;
+      border-style: double;
+    }
+
+    .picture_upload_icon {
+      position: absolute;
+      left: 32.3%;
+      top: 36.19%;
+    }
+
+    .clue_box {
+      position: absolute;
+      top: 7.63%;
+      left: 52.12%;
+      width: 42.2%;
+      height: 82.8%;
+    }
+
+    .picture_textarea_clue {
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      font-size: 18px;
+      font-family: Helvetica;
+      border-radius: 8px;
+      border-color: #CCCCCC;
+      border-width: 2px;
+      border-style: double;
+    }
+
+    .clue_hint {
+      position: absolute;
+      width: 85.84%;
+      top: -1.8%;
+      left: 7.08%;
+      font-family: Helvetica Neue;
+      font-size: 14px;
+      color: #C7C7CC;
+    }
+
+    .step_title_position {
+      position: absolute;
+      left: 56.49%;
+      top: 22px;
+    }
+
+    .input_title {
+      position: absolute;
+      left: 56.49%;
+      top: 86px;
+      width: 33.28%;
+      height: 40px;
+      font-size: 18px;
+      font-family: Helvetica;
+      border-radius: 8px;
+      border-color: #CCCCCC;
+      border-width: 2px;
+      border-style: double;
+    }
+
+    .step_description_position {
+      position: absolute;
+      left: 56.49%;
+      top: 144px;
+    }
+
+    .description_box {
+      position: absolute;
+      left: 56.49%;
+      top: 210px;
+      width: 33.28%;
+      height: 240px;
+    }
+
+    .textarea_description {
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      font-size: 18px;
+      font-family: Helvetica;
+      border-radius: 8px;
+      border-color: #CCCCCC;
+      border-width: 2px;
+      border-style: double;
+    }
+
+    .description_hint {
+      position: absolute;
+      width: 92.83%;
+      top: -1%;
+      left: 3.59%;
+      font-family: Helvetica Neue;
+      font-size: 14px;
+      color: #C7C7CC;
+    }
+
+    .step_region_position {
+      position: absolute;
+      left: 56.49%;
+      top: 472px;
+    }
+
+    .step_text {
+      font-family: Helvetica;
+      font-weight: Bold;
+      font-size: 22px;
+      color: #161412;
+    }
+
+    .form_region {
+      position: absolute;
+      left: 56.49%;
+      top: 534px;
+      width: 23.28%;
+    }
+
+    .form_region_style {
+      position: absolute;
+      width: 100%;
+      height: 36px;
+      padding-left: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border-style: double;
+      border-width: 2px;
+      border-color: #CCCCCC;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
+
+    .form_region_icon {
+      position: absolute;
+      top: 15px;
+      right: 10px;
+    }
+
+    .button_submit {
+      background-color: #845D23;
+      border: 0;
+      width: 152px;
+      height: 36px;
+      border-radius: 100px;
+      font-family: Helvetica Neue;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      position: absolute;
+      left: 51.94%;
+      top: 612px;
+    }
+
+    .button_cancel {
+      background: none;
+      border-width: 2px;
+      border-color: #161412;
+      border-style: double;
+      width: 152px;
+      height: 36px;
+      border-radius: 100px;
+      font-family: Helvetica Neue;
+      font-size: 18px;
+      font-weight: bold;
+      color: #161412;
+      position: absolute;
+      left: 36.64%;
+      top: 612px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main_body">
+    <img class="background_picture" src="images/background_picture.png" width="100%">
+    <p class="headline">Let's share your treasure!</p>
+    <div class="form_box">
+      <p class="step_picture_position step_text">1. Upload the pictures</p>
+
+      <div class="picture_box">
+
+        <div class="picture_1_postion">
+          <div class="picture_bar_open">
+            <p class="picture_bar_text">Picture 01</p>
+            <img class="picture_icon_up" src="images/chevron-up.png">
+          </div>
+          <div class="picture_content">
+            <div class="picture_upload_box">
+              <img class="picture_upload_icon" src="images/camera.png">
+            </div>
+            <div class="clue_box">
+              <textarea class="picture_textarea_clue" name="clue"></textarea>
+              <p class="clue_hint">Set some clues as you want for finding the picture. Do not tell the exact location!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="picture_2_postion">
+          <div class="picture_bar_close">
+            <p class="picture_bar_text">Picture 02</p>
+            <img class="picture_icon_up" src="images/chevron-down.png">
+          </div>
+
+          <!-- <div class="picture_content">
+            <div class="picture_upload_box">
+              <img class="picture_upload_icon" src="images/camera.png">
+            </div>
+            <div class="clue_box">
+              <textarea class="picture_textarea_clue" name="clue"></textarea>
+              <p class="clue_hint">Set some clues as you want for finding the picture. Do not tell the exact location!</p>
+            </div>
+          </div> -->
+
+        </div>
+
+        <div class="picture_3_postion">
+          <div class="picture_bar_close">
+            <p class="picture_bar_text">Picture 03</p>
+            <img class="picture_icon_up" src="images/chevron-down.png">
+          </div>
+
+          <!-- <div class="picture_content">
+            <div class="picture_upload_box">
+              <img class="picture_upload_icon" src="images/camera.png">
+            </div>
+            <div class="clue_box">
+              <textarea class="picture_textarea_clue" name="clue"></textarea>
+              <p class="clue_hint">Set some clues as you want for finding the picture. Do not tell the exact location!</p>
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
+
+      <div class="add_a_picture">
+
+      </div>
+
+      <p class="step_title_position step_text">2. Scenery title</p>
+      <input class="input_title" type="text" name="title" value="">
+      <p class="step_description_position step_text">3. General description</p>
+
+      <div class="description_box">
+        <textarea class="textarea_description" name="description"></textarea>
+        <p class="description_hint" id="description_hint">Write the general description or recommendation reason of your scenery here. Do not tell the exact location!</p>
+      </div>
+      <p class="step_region_position step_text">4. Region</p>
+
+      <div class="form_region">
+        <form>
+          <select class="form_region_style" name="region">
+            <option value="null"></option>
+            <option value="Espoo">Espoo</option>
+            <option value="Helsinki">Helsinki</option>
+            <option value="Vantaa">Vantaa</option>
+          </select>
+        </form>
+        <img class="form_region_icon" src="images/chevron-down_brown.png">
+      </div>
+
+
+
+      <button class="button_submit" type="button" name="Submit">Submit</button>
+      <button class="button_cancel" type="button" name="Cancel">Cancel</button>
+
+    </div>
+  </div>
+
+  <div class="navigation">
+    <a href="Landing_page.html"><img class="logo" src="images/logo.png"></a>
+    <p class="title">Hidden Scenery</p>
+    <p class="slogan">The ordinary view can be extraordinary</p>
+    <div class="nav1">
+      <a href="Detail.html">
+        <p class="text_nav">Weekly-Task</p>
+      </a>
+    </div>
+    <div class="nav2">
+      <a href="List.html">
+        <p class="text_nav">Explore</p>
+      </a>
+    </div>
+    <div class="line">
+      <table style="height:32px;border-color:#E3D5CA;border-left-style:solid;border-width:2px">
+        <tr>
+          <td valign="top"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="login">
+      <a href="Login.html">
+        <p class="text_nav">Login</p>
+      </a>
+    </div>
+    <button class="button_register" type="button" name="Join free">Join free</button>
+  </div>
+
+</body>
+
+</html>

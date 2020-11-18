@@ -1,0 +1,29 @@
+#NavigationBar {position: fixed; width:1536px; height:96px; background:#161513; z-index: 100;}
+#ShowPic {width: 795px; height: 531.5px; background: rgba(0, 0, 0, 0); opacity: 1; position:relative; left:168px; top:139px; }
+#CluePanel {padding-left: 2%;padding-right: 2%;position:relative; top:139px; left:168px; background: #E4D5CA; border: 1px solid #E4D5CB; opacity: 1; width: 341.5px; height: 530px; margin-right:243.5px; float:right;}
+.shareLink { width: 18px; height: 18px;}
+.title {position:relative; top:35px;  font-size: 36px; font-family: Helvetica-Bold; line-height: 24px; color: #171613;opacity: 1;}
+#Details {position:relative; top:55px; font-size: 16px; font-family: Helvetica-Oblique; line-height: 24px; color: #161413; opacity: 1;}
+.button3 {padding-left:30px; padding-right:30px; margin-top:20px; height: 36px; background: #FFFFFF; border: 2px solid #161513; opacity: 1; border-radius: 100px;}
+.button3 text {font-size: 16px; font-family: HelveticaNeue-Bold; color: #161513;}
+.title1 {font-size: 16px; font-family: HelveticaNeue-Bold; color: #161513; opacity: 1;}
+#InfoPanel {position:relative; top:70px;}
+#PicPanel {position: relative; top:100px;}
+#PicPanel img {width:80px;height:53px;}
+#Pic1 { border: 2px solid #161513; opacity: 1;}
+#Input {position:relative;left:168px;top:160px;}
+#Input img {float:left;padding-bottom: 10px;}
+textarea {float:left;width: 638px; height: 84px; border: 2px solid #AB8149; opacity: 1; border-radius: 4px;font-size: 18px;font-family: HelveticaNeue; line-height: 22px; color: #777777;}
+#Decorate {width: 117px; height: 36px; background: #FFFFFF; border: 2px solid #151513; opacity: 1; border-radius: 4px;}
+.change_btn {float:left; position:relative; top:5px;left:17px;width: 117px;height: 36px;background: #FFFFFF;border: 2px solid #151513;opacity: 1;border-radius: 4px;font-size: 16px;font-family: HelveticaNeue-Bold;line-height: 24px;color: #161613;}
+.send_btn {float:left;position:relative; top:5px;left:17px;width: 117px;height: 36px;background: #AB8149;border: 2px solid #AB814B;opacity: 1;border-radius: 4px;font-size: 16px;font-family: HelveticaNeue-Bold;line-height: 24px;color: #FFFFFF;}
+#Rank {padding-left: 3%; padding-right: 3%; position: relative; top:120px;width: 220px; left:73.5%;height: 238px;background: rgba(119, 119, 118, 0.3);opacity: 1;}
+#Rank h {position: relative;left:75px;font-size: 18px;font-family: HelveticaNeue-Bold;line-height: 23px;color: #161513;opacity: 1;}
+.love_icon {float: right;position: relative;top:5px;}
+#Rank span {position: relative; top:-5px; left:20px;}
+#CommentPanel {position: relative; left:168px;width:849px;padding-top:33px;border-top-style:solid; border-top-width:1px;border-top-color: #777777;}
+#CommentPanel .portrait {position: relative; float: left;}
+#CommentPanel h {position: relative;left:18px;float: left; font-size: 16px;font-family: HelveticaNeue-Bold;line-height: 19px;color: #161513;}
+#CommentPanel span {position: relative; left:28px;float: left;font-size: 16px;font-family: Helvetica Neue;font-weight: 200;line-height: 18px;color: #707070;}
+#CommentPanel text {position: relative; left:18px;font-size: 16px;font-family: Helvetica;line-height: 24px;color: #777777;}
+#CommentPanel .CommentPic {position: relative; left:18px;padding-top:15px;margin-right: 30px;}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing_page</title>
+  <link rel="stylesheet" type="text/css" href="navigation.css">
+
+  <style type="text/css">
+    .banner {
+      position: relative;
+      height: 920px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner_picture {
+      position: absolute;
+      width: 100%;
+    }
+
+    .banner_text {
+      position: relative;
+      z-index: 1;
+      top: 280px;
+      font-family: Helvetica;
+      font-weight: bold;
+      font-size: 72px;
+      color: #E3D5CA;
+    }
+
+    .contribute_section {
+      position: relative;
+      height: 840px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .illustration {
+      position: absolute;
+      top: 60px;
+      width: 460px;
+    }
+
+    .slogan_in_contribute {
+      position: absolute;
+      top: 510px;
+      font-family: Helvetica;
+      font-size: 52px;
+      color: #161513;
+    }
+
+    .text_in_contribute {
+      position: absolute;
+      top: 612px;
+      font-family: Helvetica;
+      font-size: 24px;
+      line-height: 36px;
+      color: #161513;
+    }
+
+    .button_contribute {
+      background-color: #845D23;
+      border: 0;
+      width: 152px;
+      height: 36px;
+      border-radius: 100px;
+      font-family: Helvetica Neue;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      position: absolute;
+      top: 740px;
+      left:45%;
+    }
+  </style>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    $(document).ready(function() {
+
+      $("button.button_register").hover(function() {
+        $(this).css("background-color", "#845E23");
+        document.getElementById("StartG").style.color = "#FFFFFF";
+      }, function() {
+        $(this).css("background-color", "#845D23");
+        document.getElementById("StartG").style.color = "#FFFFFF";
+      });
+
+    });
+  </script>
+
+
+
+</head>
+
+<body>
+  <div class="banner">
+    <img class="banner_picture" src="images/banner.png" width="100%">
+    <p class="banner_text">Week 3:<br>Helsinki Cathedral</p>
+  </div>
+
+  <div class="navigation">
+    <a href="Landing_page.html"><img class="logo" src="images/logo.png"></a>
+    <p class="title">Hidden Scenery</p>
+    <p class="slogan">The ordinary view can be extraordinary</p>
+    <div class="nav1">
+      <a href="Detail_page.html">
+        <p class="text_nav">Weekly-Task</p>
+      </a>
+    </div>
+    <div class="nav2">
+      <a href="List.html">
+        <p class="text_nav">Explore</p>
+      </a>
+    </div>
+    <div class="line">
+      <table style="height:32px;border-color:#E3D5CA;border-left-style:solid;border-width:2px">
+        <tr>
+          <td valign="top"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="login">
+      <a href="Login.html">
+        <p class="text_nav">Login</p>
+      </a>
+    </div>
+    <button class="button_register" id="button_register" type="button" name="Join free">Join free</button>
+  </div>
+
+  <iframe src="Landing_page_yi.html" width="100%" height="740px" frameBorder="0" scrolling="no"></iframe>
+  <iframe src="Homepagedou.html" width="100%" height="740px" frameBorder="0" scrolling="no"></iframe>
+
+  <div class="contribute_section">
+    <img class="illustration" src="images/illustration.png">
+    <p class="slogan_in_contribute">Be the Scenery Hider</p>
+    <p class="text_in_contribute">Upload photos and share your story,<br>the next task will be posted by you!</p>
+    <a href="Contribute.html"><button class="button_contribute" type="button" name="Contribute">Contribute</button></a>
+  </div>
+
+</body>
+
+</html>

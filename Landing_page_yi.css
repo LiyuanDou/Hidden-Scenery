@@ -1,0 +1,154 @@
+.basicBackg {
+  width: 100%;
+  height: 740px;
+}
+
+#ClueImg1 {
+  float: left;
+  padding-left: 8%;
+  padding-top: 86px;
+}
+
+#ClueImg2 {
+  float: left;
+  padding-left: 88px;
+  padding-top: 86px;
+}
+
+#ClueImg3 {
+  float: left;
+  padding-left: 88px;
+  padding-top: 86px;
+}
+
+.float {
+  display: none;
+  width: 286px;
+  height: 160px;
+  position: relative;
+  top: -200px;
+  left: 30px;
+  background: #FFFFFF;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.float img {
+  position: relative;
+  left: 16px;
+  top: 10px;
+}
+
+.float b {
+  position: relative;
+  left: 20px;
+  top: 7px;
+  font-size: 16px;
+  font-family: HelveticaNeue-Bold;
+  color: #161513;
+  opacity: 1;
+}
+
+.float text {
+  position: relative;
+  top: 10px;
+  font-size: 14px;
+  font-family: Helvetica-Oblique;
+  line-height: 24px;
+  color: #161413;
+}
+
+#CluePic1 {
+  width: 343px;
+  height: 315px;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+#CluePic2 {
+  width: 343px;
+  height: 315px;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+#CluePic3 {
+  width: 343px;
+  height: 315px;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+#CommentPart1 {
+  width: 65%;
+  position: absolute;
+  left: 10%;
+  top: 468px;
+}
+
+#CommentPart1 img {
+  vertical-align: text-top;
+}
+
+#CommentPart2 {
+  width: 65%;
+  position: absolute;
+  left: 10%;
+  top: 576px;
+}
+
+#CommentPart2 img {
+  vertical-align: text-top;
+}
+
+#rightPanel {
+  width: 35%;
+  position: absolute;
+  left: 70%;
+  top: 486px;
+}
+
+.inner {
+  position: relative;
+  top: -44px;
+  font-size: 16px;
+  font-family: Helvetica-Oblique;
+  line-height: 24px;
+  color: #777777;
+  opacity: 1;
+}
+
+.title1 {
+  font-size: 16px;
+  font-family: HelveticaNeue-Bold;
+  color: #161513;
+  opacity: 1;
+  padding-left: 20px;
+}
+
+.title2 {
+  font-size: 16px;
+  font-family: HelveticaNeue-Bold;
+  color: #161513;
+  opacity: 1;
+}
+
+.button3 {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  position: absolute;
+  top: 116px;
+  left: 12px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 2px solid #161513;
+  opacity: 1;
+  border-radius: 100px;
+}
+
+.button3 text {
+  font-size: 16px;
+  font-family: HelveticaNeue-Bold;
+  color: #161513;
+}
