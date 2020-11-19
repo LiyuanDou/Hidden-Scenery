@@ -16,9 +16,17 @@
      $(".button_submit").click(function(){
        alert("SUBMIT SUCCESSFULLY!");
        }
-      );
+     );
     });
   </script>
+  <script>
+     $(document).ready(function(){
+       $(".button_cancel").click(function(){
+        window.history.back()
+         }
+        );
+      });
+    </script>
   <style type="text/css">
     .main_body {
       position: relative;
