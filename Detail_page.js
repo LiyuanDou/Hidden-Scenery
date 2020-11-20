@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+  $("#button_register").hover(function() {
+    $(this).css("background", "#559900");
+  }, function() {
+    $(this).css("background", "#9CDA1E");
+  });
+
   $("button.button3").hover(function(){
     $(this).css("background","#161513");
     document.getElementById("StartG").style.color = "#FFFFFF";
